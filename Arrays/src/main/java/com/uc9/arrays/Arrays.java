@@ -35,9 +35,17 @@ public class Arrays {
         for(int i:numeros){
             System.out.println(i);}
         
-        for
         
+        for(int i = 0;i < numeros.length; i ++){
+            System.out.println(numeros[i]);
+        }
+         for(int numero : numeros ){
+            System.out.println(numeros);
+        
+         }
     }
 }
+
+
     
 
