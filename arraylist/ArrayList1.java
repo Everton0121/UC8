@@ -8,13 +8,11 @@ import java.util.ArrayList;
  *
  * @author EDUARDOEVERTONRODRIG
  */
-public class ArrayList1 {   
+public class ArrayList2 {
     
-   
+    static ArrayList<Integer> numeros = new ArrayList<>();
 
     public static void main(String[] args) {
-        
-         ArrayList<Integer> numeros = new ArrayList<>();
         
         //adiciona um elemento 
         numeros.add(10);
@@ -22,7 +20,7 @@ public class ArrayList1 {
         numeros.add(30);
         numeros.add(100);
        
-        // remove um elemnto
+        // remove um elemento
         
         numeros.remove(2);// remove o indice 2 (30)
               
@@ -41,5 +39,13 @@ public class ArrayList1 {
          
         // Verifica o tamanho do ArrayList.
         System.out.println(numeros.size());
+        
+        // Verifica se o ArrayList esta vazio ou não.
+        System.out.println(numeros.isEmpty());
+        
+        // Verifica se um elemento está na lista.
+        System.out.println(numeros.contains(100));
     }
 }
+
+
