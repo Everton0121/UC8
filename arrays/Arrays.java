@@ -11,7 +11,12 @@ package com.uc9.arrays;
 public class Arrays {
 
     public static void main(String[] args) {int[] numeros = new int[3];
-    /*
+   
+    Shopping shopping = new Shopping();
+    shopping.menu();
+ 
+            
+            /*
         numeros[0] = 30;
         numeros[1] = 60;
         numeros[2] = 90;
@@ -25,6 +30,7 @@ public class Arrays {
         System.out.println( nomes[0] + " " + nomes[1] + " " + nomes[2]);
     */
     
+    /*
         String[] nomes = new String[5]; 
         
         int[] numeros2 = {10,20,30,40,50};
@@ -47,7 +53,8 @@ public class Arrays {
          for(int numero : numeros ){
             System.out.println(numeros);      
          }
-         
+         */
+    
          /*
          
             criem um metodo que recebe email e uma senha 
